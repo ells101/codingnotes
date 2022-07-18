@@ -5,3 +5,4 @@ General Coding Tips / Tricks / Things to Remember
 - On MacOS holding down CMD + / will comment out all that is highlighted in Vscode.
 - Don't copy + paste code, try to rewrite it, and play around with it using your own parameters or variables.
 - Having trouble reading long bits of HTML? Use HTML formatter to make ugly HTML readable.
+- Shift + Enter is the shortcut to run your code.
