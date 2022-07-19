@@ -6,3 +6,4 @@ General Coding Tips / Tricks / Things to Remember
 - Don't copy + paste code, try to rewrite it, and play around with it using your own parameters or variables.
 - Having trouble reading long bits of HTML? Use HTML formatter to make ugly HTML readable.
 - Shift + Enter is the shortcut to run your code.
+- Finding an exercise/kata you like and trying to do it every day for a week is a great way to put something into long-term memory.
