@@ -7,7 +7,7 @@ General Coding Tips / Tricks / Things to Remember
 - Having trouble reading long bits of HTML? Use HTML formatter to make ugly HTML readable.
 - Shift + Enter is the shortcut to run your code.
 - Finding an exercise/kata you like and trying to do it every day for a week is a great way to put something into long-term memory.
-- Get a mentor. Use meet a mentor to find one. It's free!
+- Get a mentor. Use meetamentor.co.uk to find one. It's free!
 - Immerse yourself in the programming world. You can follow podcasts and mailing lists for Open Source projects to get a feel for how Devs communicate with each other.
 - Better comments is a great way of organising comments. Use # and then enter symnbol: *(important), !(high importance/warning), ?(Questions), *TODO
 @ (to denote params)
