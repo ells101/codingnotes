@@ -11,3 +11,4 @@ General Coding Tips / Tricks / Things to Remember
 - Immerse yourself in the programming world. You can follow podcasts and mailing lists for Open Source projects to get a feel for how Devs communicate with each other.
 - Better comments is a great way of organising comments. Use # and then enter symnbol: *(important), !(high importance/warning), ?(Questions), *TODO
 @ (to denote params)
+- Breaking something complex and large into smaller bits with methods is called *method decomposition*. 
