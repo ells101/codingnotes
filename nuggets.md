@@ -12,3 +12,4 @@ General Coding Tips / Tricks / Things to Remember
 - Better comments is a great way of organising comments. Use # and then enter symnbol: *(important), !(high importance/warning), ?(Questions), *TODO
 @ (to denote params)
 - Breaking something complex and large into smaller bits with methods is called *method decomposition*.
+- Try to use retrograde analysis where applicable.
