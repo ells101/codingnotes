@@ -6,4 +6,4 @@ Many of these unusual tips come from my time at the Makers Web Development bootc
 
 Specific tips in relation to programming languages or frameworks are split up for ease of use.
 
-Enjoy and hope you learn something from these.
+Enjoy and I hope you learn something.
