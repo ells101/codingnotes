@@ -1,4 +1,4 @@
-# readme
+# Coding Notes - Tips/Tricks/Oddities
 
 On my way to becomming a software developer I've journalled tips I find quirky in some way. Sometimes the tips aren't about coding itself, but the way in which we code or work as a team.
 
