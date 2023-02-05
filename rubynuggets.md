@@ -19,7 +19,7 @@ Handy In-Built Methods
 
 - In the last bit of code, .max simply returns whatever is the highest value, var1-var2 or 0.
 
-- .map method is great when you want to construct an array from an "enumerable". You can use .map on anything that Ruby includes in the enumerable module. e.g. You can call .map on: ranges, arrays, hashes and more!
+- The .map method is great when you want to construct an array from an "enumerable". You can use .map on anything that Ruby includes in the enumerable module. e.g. You can call .map on: ranges, arrays, hashes and more!
 
 >(1..5).map { |n| n**2 } # returns [1, 4, 9, 16, 25]
 >{ name: "John", age: 30 }.map { |k, v| "#{k}: #{v}" } # returns ["name: John", "age: 30"]
@@ -29,6 +29,7 @@ Handy In-Built Methods
 
 - My last codewars exercise was to transform *just* the first element of each array inside a nested array. So [["20", age], ["30", age]] would be: [[20, age], [30, age]]. In the .map block I used I created a new array that represents the elements of the nested array:
 
->arr.map {|n| [n.first.to_i, n.last] } #creates a new array with first element changing to an int and last element unchanged.
+>arr.map {|n| [n.first.to_i, n.last] } # creates a new array with first element changing to an int and last element unchanged.
+>arr.map {|n| [n[0].to_i, n[-1]]} # this is the same thing
 
-- If there were three elements to each nested array, I could add another element into the block e.g. [n.first.to_i, n[1], n.last]. As we can see .map is useful for performing an operation on particular elements of a nested array. We can also use .map_with_index to return the index along with the elements if we so wish.
+- If there were three elements to each nested array, I could add another element into the block e.g. [n[0]to_i, n[1], n[-1]]. As we can see .map is useful for performing an operation on particular elements of a nested array. We can also use .map_with_index to return the index along with the elements if we so wish.
