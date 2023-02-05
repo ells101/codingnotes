@@ -11,9 +11,9 @@ Handy In-Built Methods
 
 >numbers = [3, 5, 2, 8, 1] max_number = numbers.max = returns the highest number, 8.
 
-= If we were to use numbers.max(2), [8, 5] is returned.
-= Max method can also take a block, which is useful if we want to determine the value of each element in a collection. E.g. If we want to know what is the longest string of an array.
-= Another, seemingly rarer, use of .max method is to set a cap at a specified number.
+- If we were to use numbers.max(2), [8, 5] is returned.
+- Max method can also take a block, which is useful if we want to determine the value of each element in a collection. E.g. If we want to know what is the longest string of an array.
+- Another, seemingly rarer, use of .max method is to set a cap at a specified number.
 
 >e.g. [var1 - var2, 0].max ensures that after subtracting var1 from var2, the highest result will be 0. Ensuring no negative numbers can be returned from this calculation.
 
