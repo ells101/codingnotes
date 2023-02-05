@@ -24,7 +24,8 @@ Handy In-Built Methods
 >(1..5).map { |n| n**2 } # returns [1, 4, 9, 16, 25]
 >{ name: "John", age: 30 }.map { |k, v| "#{k}: #{v}" } # returns ["name: John", "age: 30"]
 
-= .map(&:name) is shorthand for when you want to use .map on an enumerable and want to apply one method to each element.
+- .map(&:name) is shorthand for when you want to use .map on an enumerable and want to apply one method to each element.
+
 > [1,2,3].map {|n| n.is_even?} === [1,2,3].map(&:even?)
 
 - My last codewars exercise was to transform *just* the first element of each array inside a nested array. So [["20", age], ["30", age]] would be: [[20, age], [30, age]]. In the .map block I used I created a new array that represents the elements of the nested array:
