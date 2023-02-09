@@ -35,3 +35,8 @@ Handy In-Built Methods
 >arr.map {|n| [n[0].to_i, n[-1]]} # this is the same thing
 
 - If there were three elements to each nested array, I could add another element into the block e.g. [n[0]to_i, n[1], n[-1]]. As we can see .map is useful for performing an operation on particular elements of a nested array. We can also use .map_with_index to return the index along with the elements if we so wish.
+
+- Turn a multidimensional(nested array) into a regular array using .flatten  e.g.
+
+> [[1], [5], [20]].flatten # returns [1, 5, 20] # useful if you want to add numbers from a nested array.
+> [[1], [5], [20]].flatten.sum # returns 26, as .sum wont work on a nested array
