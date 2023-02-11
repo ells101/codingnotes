@@ -4,6 +4,7 @@ Ruby Coding Tips / Tricks / Things to Remember
 - Implicit "return" so you don't need to write "return" you can just write the variable.
 - You can chain methods by adding methods to an "end" statement. Looks quite weird, but also slick :)
 - In Ruby, symbols are often used as keys in hashes because they are more efficient than strings. Symbols are immutable which is great for hashes as changing the key breaks the relationship between key and value.
+- =~ is a comparison operator used when you want to compare a string to a regular expression. (string = "hi" | string =~ /hi/ ? "yo" : "no"). N.B. the =~ operator returns the index of the first character of the matching string if a match is found, else returns nil.
 
 Handy In-Built Methods
 -----------------------
