@@ -12,9 +12,14 @@ nothing, i.e void.
 - Primitives and Objects difference? Objects have built-in behaviour. `String` = Object, `int` = primitive.
 - The valueOf method is a static method which returns the string representation of the given value. It can be used on primitive types too! Such as 'int', 'boolean' as well as reference types like 'object' and arrays.
 - Need to turn an integer into a float or cast any type? You can return like this: *Where result is a double* return (int) result; Using brackets to cast the variable into another allows you to change the variable type. Some precision is lost when converting a double to an integer as the double will be rounded down.
+- .repeat is a new method you can use in Java 11+ to repeat a string 'n' number of times. Syntax = string.repeat(repeatCount).
+= There's a shorthand for/each looping over an array. You can use
+
+> for (type var : array) # type is the data type of array elements. Var is the variable that holds each element of the array in turn.
+> //loop body
 
 Java Fundamentals Notes
 -----------------------
 
-- Strings are only defined by double quotes, single quotes don't work.
+- Strings are only defined by double quotes "" , single quotes'' don't work .
 = Arrays are fixed type. List for when you need to add or remove elements dynamically or when you need to store elements of different types.
