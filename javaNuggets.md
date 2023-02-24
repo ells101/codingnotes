@@ -23,3 +23,4 @@ Java Fundamentals Notes
 
 - Strings are only defined by double quotes "" , single quotes'' don't work .
 = Arrays are fixed type. List for when you need to add or remove elements dynamically or when you need to store elements of different types.
+- For OOP a rule of thumb would be: instance variables are private and methods should be public.
