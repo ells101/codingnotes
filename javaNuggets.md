@@ -16,7 +16,7 @@ nothing, i.e void.
 = There's a shorthand for/each looping over an array. You can use
 
 > for (type var : array) # type is the data type of array elements. Var is the variable that holds each element of the array in turn.
-> //loop body
+>
 
 Java Fundamentals Notes
 -----------------------
