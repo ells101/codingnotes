@@ -8,4 +8,5 @@ SQL Tips / Tricks / Things to Remember
   - Postgres open-source for web-apps.
   - SQLite, well suited for bundling database with application.
   - MS SQL Server, not open source but very common in large enterprises. To interact with database there's loads of tools to pick from. AZURE or SQL Server management are popular.
+  - 1st, Second and Third normal forms are ways of normalising data.
   
