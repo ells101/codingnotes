@@ -13,14 +13,53 @@ nothing, i.e void.
 - The valueOf method is a static method which returns the string representation of the given value. It can be used on primitive types too! Such as 'int', 'boolean' as well as reference types like 'object' and arrays.
 - Need to turn an integer into a float or cast any type? You can return like this: *Where result is a double* return (int) result; Using brackets to cast the variable into another allows you to change the variable type. Some precision is lost when converting a double to an integer as the double will be rounded down.
 - .repeat is a new method you can use in Java 11+ to repeat a string 'n' number of times. Syntax = string.repeat(repeatCount).
-= There's a shorthand for/each looping over an array. You can use
+- There's a shorthand for/each looping over an array. You can use an enhanced for loop as such:
 
+```java
 > for (type var : array) # type is the data type of array elements. Var is the variable that holds each element of the array in turn.
->
+```
 
 Java Fundamentals Notes
 -----------------------
 
 - Strings are only defined by double quotes "" , single quotes'' don't work .
-= Arrays are fixed type. List for when you need to add or remove elements dynamically or when you need to store elements of different types.
+- Arrays are fixed type. List for when you need to add or remove elements dynamically or when you need to store elements of different types.
 - For OOP a rule of thumb would be: instance variables are private and methods should be public.
+
+String
+------
+
+- Stringbuilder creates a mutable string so easier to manipulate.
+- .equals is used to check the content of another string.
+- str.substring() used to get chars from a string
+- str.substring(str.length(-1)) get the last character from of the string.
+- .IndexOf searches for first occurrence of a specified substring within the string. e.g.
+
+```java
+String yo = "Hello world";
+return yo.indexOf("world"); // returns 6
+```
+
+Maps
+-----
+
+- .computeIfPresent() allows you to update a value associated with a key, if the key is present in the map. It's a 'bifunction' that takes two arguments and returns a result. For example:
+
+```java
+    map.computeIfPresent("spinach", (key, value) -> "nuts");
+```
+
+This checks if map has the key "spinach". If it does, then update key "spinach" to have value "nuts".
+
+Exception Handling
+----------
+
+- Objects.requireNonNull checks if an object reference is null and throws a null exception if it is. So we can check if a method param is not null.
+
+```java
+
+public void doSomething(String hello)
+    Objects.requireNonNull(hello, "hello cannot be of type null");
+    //code to do something thereafter.
+
+```
