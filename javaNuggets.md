@@ -43,7 +43,7 @@ return yo.indexOf("world"); // returns 6
 Maps
 -----
 
-- .computeIfPresent() allows you to update a value associated with a key, if the key is present in the map. It's a 'bifunction' that takes two arguments and returns a result. For example:
+- .computeIfPresent() allows you to update a value associated with a key, if the key is present in the map. A lambda expression. It's a 'bifunction' that takes two arguments and returns a result. For example:
 
 ```java
     map.computeIfPresent("spinach", (key, value) -> "nuts");
@@ -54,6 +54,7 @@ This checks if map has the key "spinach". If it does, then update key "spinach" 
 Exception Handling
 ----------
 
+- Get into the habit of handling, null, empty or sometimes 0 so that your code solutions are more watertight.
 - Objects.requireNonNull checks if an object reference is null and throws a null exception if it is. So we can check if a method param is not null.
 
 ```java
@@ -62,4 +63,10 @@ public void doSomething(String hello)
     Objects.requireNonNull(hello, "hello cannot be of type null");
     //code to do something thereafter.
 
+```
+
+- We can use IllegalArgumentException, it is an unchecked exception which
+
+```java
+throw new IllegalArgumentException("you should only enter the required type")
 ```
