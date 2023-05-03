@@ -65,7 +65,7 @@ public void doSomething(String hello)
 
 ```
 
-- We can use IllegalArgumentException, it is an unchecked exception which
+- We can use IllegalArgumentException, it is an unchecked exception which is great when notifying that we should use only one particular data type.
 
 ```java
 throw new IllegalArgumentException("you should only enter the required type")
