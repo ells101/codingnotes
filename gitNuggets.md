@@ -12,3 +12,4 @@
 - **git branch** to see what is your current branch.
 - **git branch -M "name"** can change the name of branch.
 - **git clone** to copy a GitHub repo to local machine.
+- **git push** after adding to staging area and committing, push changes upstream with this cmd.
