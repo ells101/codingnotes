@@ -26,6 +26,12 @@ Java Fundamentals Notes
 - Arrays are fixed type. List for when you need to add or remove elements dynamically or when you need to store elements of different types.
 - For OOP a rule of thumb would be: instance variables are private and methods should be public.
 
+Math
+-----
+
+- `Math.ceil(n)` returns highest rounded number.
+- `Math.pow(base, exponent)` returns a (double) result of raising base to power of exponent.
+
 String
 ------
 
@@ -73,3 +79,9 @@ throw new IllegalArgumentException("you should only enter the required type")
 
 Streams
 --------
+
+SpringBoot
+-----
+
+- `@Value` annotation used to inject values from external config files, sys properties, or environment variables into your application. Values usually stored in an `application.properties` file.
+- `@Autowired` annotation used to inject dependencies into corresponding fields of the class. e.g. in SpringBoot example `CollegeStudent` and `StudentGrades`. You don't have to manually create instances of these objects, Spring Boot automatically creates and injects them at runtime.
