@@ -35,12 +35,13 @@ Math
 String
 ------
 
-- Stringbuilder creates a mutable string so easier to manipulate.
-- .equals is used to check the content of another string.
-- str.substring() used to get chars from a string
-- str.substring(str.length(-1)) get the last character from of the string.
-- str.charAt(n) gives you the char at a specified `n` index of a String.
-- .IndexOf searches for first occurrence of a specified substring within the string. e.g.
+- *Stringbuilder* creates a mutable String so easier to manipulate.
+- `str.equals` is used to check the content of another String.
+- `str.substring()` used to get chars from a String
+- `str.substring(str.length(-1))` get the last character from of the String.
+- `str.charAt(n)` gives you the char at a specified `n` index of a String.
+- `str.startsWith()` lets you check the very first character of a String.
+- `.IndexOf` searches for first occurrence of a specified substring within the String. e.g.
 
 ```java
 String yo = "Hello world";
