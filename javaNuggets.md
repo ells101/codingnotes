@@ -36,12 +36,20 @@ String
 ------
 
 - *Stringbuilder* creates a mutable String so easier to manipulate.
-- `str.equals` is used to check the content of another String.
-- `str.substring()` used to get chars from a String
-- `str.substring(str.length(-1))` get the last character from of the String.
-- `str.charAt(n)` gives you the char at a specified `n` index of a String.
-- `str.startsWith()` lets you check the very first character of a String.
-- `.IndexOf` searches for first occurrence of a specified substring within the String. e.g.
+- `.equals` is used to check the content of another String.
+- `.substring()` used to get chars from a String
+- `.substring(str.length(-1))` get the last character from of the String.
+- `.charAt(n)` gives you the char at a specified `n` index of a String.
+- `.startsWith()` lets you check the very first character of a String.
+- `String.valueOf` a static method of string class. Used to take one type like an integer and transform it to it's string literal. e.g.
+
+```java
+boolean moo = true;
+System.out.println(String.valueOf(moo))
+// prints out "true"
+```
+
+- `.indexOf` searches for first occurrence of a specified substring within the String. e.g.
 
 ```java
 String yo = "Hello world";
