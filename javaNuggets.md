@@ -12,7 +12,6 @@ nothing, i.e void.
 - Primitives and Objects difference? Objects have built-in behaviour. `String` = Object, `int` = primitive.
 - The valueOf method is a static method which returns the string representation of the given value. It can be used on primitive types too! Such as 'int', 'boolean' as well as reference types like 'object' and arrays.
 - Need to turn an integer into a float or cast any type? You can return like this: *Where result is a double* return (int) result; Using brackets to cast the variable into another allows you to change the variable type. Some precision is lost when converting a double to an integer as the double will be rounded down.
-- .repeat is a new method you can use in Java 11+ to repeat a string 'n' number of times. Syntax = string.repeat(repeatCount).
 - There's a shorthand for/each looping over an array. You can use an enhanced for loop as such:
 
 ```java
@@ -32,10 +31,15 @@ Math
 - `Math.ceil(n)` returns highest rounded number.
 - `Math.pow(base, exponent)` returns a (double) result of raising base to power of exponent.
 
+Bitwise
+------
+
+- `<<` is the left shift bitwise operators
+
 String
 ------
 
-- *Stringbuilder* creates a mutable String so easier to manipulate.
+- `.repeat` is a new method you can use in Java 11+ to repeat a string 'n' number of times. Syntax = string.repeat(repeatCount).
 - `.equals` is used to check the content of another String.
 - `.substring()` used to get chars from a String
 - `.substring(str.length(-1))` get the last character from of the String.
@@ -55,6 +59,12 @@ System.out.println(String.valueOf(moo))
 String yo = "Hello world";
 return yo.indexOf("world"); // returns 6
 ```
+
+StringBuilder
+-------
+
+- *Stringbuilder* creates a mutable String that has methods to manipulate the string.
+- .append
 
 Maps
 -----
