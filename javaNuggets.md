@@ -30,6 +30,7 @@ Math
 
 - `Math.ceil(n)` returns highest rounded number.
 - `Math.pow(base, exponent)` returns a (double) result of raising base to power of exponent.
+- `Math.min(n, n2)` returns lowest of two integers.
 
 Bitwise
 ------
