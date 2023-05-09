@@ -109,6 +109,12 @@ throw new IllegalArgumentException("you should only enter the required type")
 Streams
 --------
 
+Collections Interface
+---------
+
+- Sets are great for ensuring no duplicates. It's a collection of unique elements.
+- A TreeSet puts characters in natural order and gets rid of duplicate values. Perfect for that kata where you need take two strings and return one string with all unique chars.
+
 SpringBoot
 -----
 
