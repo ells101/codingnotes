@@ -109,6 +109,8 @@ throw new IllegalArgumentException("you should only enter the required type")
 Streams
 --------
 
+- Introduced in Java 8.
+
 Collections Interface
 ---------
 
