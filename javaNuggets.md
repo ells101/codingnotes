@@ -40,7 +40,7 @@ Bitwise
 ```java
 int value = 5;  // Binary: 00000101
 int shifted = value << 2;
-// returns 00010100 or 20 in binary
+// returns 00010100 or 20 in binary code
 ```
 
 In this example, value is initially set to 5, which has a binary representation of 00000101. The left shift operation value `<< 2` shifts the bits of value two positions to the left. The result will be 00010100, which is equivalent to the decimal value 20.
