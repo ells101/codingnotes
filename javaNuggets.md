@@ -25,6 +25,14 @@ Java Fundamentals Notes
 - Arrays are fixed type. List for when you need to add or remove elements dynamically or when you need to store elements of different types.
 - For OOP a rule of thumb would be: instance variables are private and methods should be public.
 
+Testing General Notes
+---------------------
+
+- Database useful for testing is to use H2 databases.
+  - It's in memory and embedded
+  - Quick set up and tear down
+  - no network latency so tests run faster
+
 Math
 -----
 
@@ -125,3 +133,4 @@ SpringBoot
 - `ReflectionTestUtils`, allows you to get/set non-public fields directly. Why not just make it public?
   - To be able to test methods/modules which are private and can't be made public. (e.g. You are working at a company and want to create a test but you don't want to change the existing code's access modifier).
 - Reflection can be very useful when testing legacy code or dealing with third-party libraries that rely on reflection.
+
