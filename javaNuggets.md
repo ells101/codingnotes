@@ -122,3 +122,4 @@ SpringBoot
 
 - `@Value` annotation used to inject values from external config files, sys properties, or environment variables into your application. Values usually stored in an `application.properties` file.
 - `@Autowired` annotation used to inject dependencies into corresponding fields of the class. e.g. in SpringBoot example `CollegeStudent` and `StudentGrades`. You don't have to manually create instances of these objects, Spring Boot automatically creates and injects them at runtime.
+- 'ReflectionTestUtils', useful to be able to test methods/modules which are private and can't be made public. (e.g. Y)
