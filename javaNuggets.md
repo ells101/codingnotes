@@ -133,4 +133,4 @@ SpringBoot
 - `ReflectionTestUtils`, allows you to get/set non-public fields directly. Why not just make it public?
   - To be able to test methods/modules which are private and can't be made public. (e.g. You are working at a company and want to create a test but you don't want to change the existing code's access modifier).
 - Reflection can be very useful when testing legacy code or dealing with third-party libraries that rely on reflection.
-
+- Spring has great testing support for REST API's. How can we test MVC controllers and create HTTP Requests. Plus verify the response? (header, response code etc). Spring has capabilities to do all this without need to run a server.
