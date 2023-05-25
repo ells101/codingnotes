@@ -126,7 +126,7 @@ Collections Interface
 - A TreeSet puts characters in natural order and gets rid of duplicate values. Perfect for that kata where you need take two strings and return one string with all unique chars.
 
 SpringBoot
------
+-------
 
 - `@Value` annotation used to inject values from external config files, sys properties, or environment variables into your application. Values usually stored in an `application.properties` file.
 - `@Autowired` annotation used to inject dependencies into corresponding fields of the class. e.g. in SpringBoot example `CollegeStudent` and `StudentGrades`. You don't have to manually create instances of these objects, Spring Boot automatically creates and injects them at runtime.
