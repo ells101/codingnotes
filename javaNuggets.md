@@ -40,6 +40,11 @@ Math
 - `Math.pow(base, exponent)` returns a (double) result of raising base to power of exponent.
 - `Math.min(n, n2)` returns lowest of two integers.
 
+Java 8
+------
+
+- `Optional<T>` is a container object. It communicates the possibility of a null value. Expressive and safer alternative to returning null values.
+
 Bitwise
 ------
 
