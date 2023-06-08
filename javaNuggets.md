@@ -18,6 +18,12 @@ nothing, i.e void.
 > for (type var : array) # type is the data type of array elements. Var is the variable that holds each element of the array in turn.
 ```
 
+- The `var` keyword is a "type inference" feature. You can declare local variables without explicitly specifying their types. Makes code more concise but potentially more obscure. e.g.
+
+ ```java
+ var unique = new LinkedList<Integer>();
+ ```
+
 Java Fundamentals Notes
 -----------------------
 
@@ -90,17 +96,6 @@ StringBuilder
 - *Stringbuilder* creates a mutable String that has methods to manipulate the string.
 - .append
 
-Maps
------
-
-- .computeIfPresent() allows you to update a value associated with a key, if the key is present in the map. A lambda expression. It's a 'bifunction' that takes two arguments and returns a result. For example:
-
-```java
-    map.computeIfPresent("spinach", (key, value) -> "nuts");
-```
-
-This checks if map has the key "spinach". If it does, then update key "spinach" to have value "nuts".
-
 Exception Handling
 ----------
 
@@ -131,10 +126,17 @@ Collections Interface
 
 - Sets are great for ensuring no duplicates. It's a collection of unique elements.
 - A TreeSet puts characters in natural order and gets rid of duplicate values. Perfect for that kata where you need take two strings and return one string with all unique chars.
+- .computeIfPresent() allows you to update a value associated with a key, if the key is present in the map. A lambda expression. It's a 'bifunction' that takes two arguments and returns a result. For example:
+
+```java
+    map.computeIfPresent("spinach", (key, value) -> "nuts");
+```
+
+This checks if map has the key "spinach". If it does, then update key "spinach" to have value "nuts".
 
 SpringBoot
 -------
- 
+
 - `@Value` annotation used to inject values from external config files, sys properties, or environment variables into your application. Values usually stored in an `application.properties` file.
 - `@Autowired` annotation used to inject dependencies into corresponding fields of the class. e.g. in SpringBoot example `CollegeStudent` and `StudentGrades`. You don't have to manually create instances of these objects, Spring Boot automatically creates and injects them at runtime.
 - `ReflectionTestUtils`, allows you to get/set non-public fields directly. Why not just make it public?
