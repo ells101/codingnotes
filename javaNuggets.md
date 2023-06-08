@@ -28,7 +28,7 @@ Java Fundamentals Notes
 Testing General Notes
 ---------------------
 
-- Database useful for testing is to use H2 databases.
+- Database useful for testing is to use `H2` databases.
   - It's in memory and embedded
   - Quick set up and tear down
   - no network latency so tests run faster
@@ -45,6 +45,7 @@ Java 8
 
 - `Optional<T>` is a container object. It communicates the possibility of a null value. Expressive and safer alternative to returning null values.
 - Introduced with functional programming paradigms is the `::` operator, aka "method reference operator". It's shortcut syntax for lambda-like expressions.
+ -e.g
 
 Bitwise
 ------
@@ -133,7 +134,7 @@ Collections Interface
 
 SpringBoot
 -------
-
+ 
 - `@Value` annotation used to inject values from external config files, sys properties, or environment variables into your application. Values usually stored in an `application.properties` file.
 - `@Autowired` annotation used to inject dependencies into corresponding fields of the class. e.g. in SpringBoot example `CollegeStudent` and `StudentGrades`. You don't have to manually create instances of these objects, Spring Boot automatically creates and injects them at runtime.
 - `ReflectionTestUtils`, allows you to get/set non-public fields directly. Why not just make it public?
