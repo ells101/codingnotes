@@ -44,6 +44,7 @@ Java 8
 ------
 
 - `Optional<T>` is a container object. It communicates the possibility of a null value. Expressive and safer alternative to returning null values.
+- Introduced with functional programming paradigms is the `::` operator, aka "method reference operator". It's shortcut syntax for lambda-like expressions.
 
 Bitwise
 ------
